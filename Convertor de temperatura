@@ -1,6 +1,3 @@
-Puedes crear la función y realizar las conversiones para las temperaturas dadas de la siguiente manera:
-
-```python
 def convertir_temperatura(grad_cent):
     # Convertir a Fahrenheit
     fahrenheit = (9/5) * grad_cent + 32
@@ -17,6 +14,3 @@ temperaturas = [50, 40, 60, 70, 80]
 for temp in temperaturas:
     fahrenheit, kelvin = convertir_temperatura(temp)
     print(f"{temp} grados Celsius son {fahrenheit:.2f} grados Fahrenheit y {kelvin:.2f} grados Kelvin.")
-```
-
-En este código, la función `convertir_temperatura` realiza las conversiones solicitadas. Luego, se crea una lista de temperaturas `[50, 40, 60, 70, 80]`, y se itera sobre esta lista para mostrar las conversiones a Fahrenheit y Kelvin para cada temperatura. Los resultados se muestran en la consola cuando ejecutas el script en PyCharm.
